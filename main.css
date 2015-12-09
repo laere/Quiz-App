@@ -1,0 +1,100 @@
+/*=====================================================
+  BASE STYLING
+=====================================================*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FDC14A;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5em;
+ 
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Corben', sans-serif;
+}
+
+h3 {
+  padding: 10px 0;
+}
+
+ul li {
+  font-family: 'Nobile', sans-serif;
+  list-style: none;
+  padding: 20px 10px;
+  margin: 0 10px;
+}
+
+input {
+  margin-right: 15px;
+}
+
+input[type=radio] {
+  height: 20px;
+  width: 20px;
+}
+/*=====================================================
+CONTAINER
+=====================================================*/
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #F9F9F9;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .65);
+}
+/*=====================================================
+  HEADER ELEMENTS
+=====================================================*/
+
+#logo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#questionHeader,
+#answers {
+  margin-left: 60px;
+  padding-top: 30px;
+}
+/*=====================================================
+  BUTTONS
+=====================================================*/
+
+#btnNext,
+#btnBack {
+  width: 50px;
+  height: 50px;
+  float: right;
+  text-align: center;
+  positioN: relative;
+  bottom: 50px;
+  font-family: 'Nobile', sans-serif;
+  font-size: .9em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#btnNext {
+  background-color: #5BAC4E;
+  border-bottom: 3px solid #1D6C10;
+}
+
+#btnBack {
+  background-color: #D43737;
+  border-bottom: 3px solid #910404;
+}
