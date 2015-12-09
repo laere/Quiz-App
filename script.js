@@ -15,20 +15,25 @@ var allQuestions = [{
 
 ];
 
-
 var grabQuestion = document.getElementById('question');
-//returns a nodeList of all li tags
-var quizAnswers = document.getElementsByTagName('li');
 var nextButton = document.getElementById('btnNext');
 var backButton = document.getElementById('btnBack');
-var score = 0;
+var correctAnswer = 0;
 
 
 //Add first question to the page
 var addQuizQuestion = function() {
   var storeQuestion = allQuestions[0].question;
-  grabQuestion.textContent(storeQuestion);
+  grabQuestion.innerHTML = storeQuestion; 
 }
+addQuizQuestion();
+
+//When next button is clicked
+//the current question is replaced by the next
+nextButton.onclick = function() {
+  
+}
+
 
 //create a function to add answers from the array and to the DOM.
 //Add answers of first question to page
@@ -37,16 +42,22 @@ var addQuizAnswers = function() {
   var storeAnswers = allQuestions[0].choices;
   //loop through the choices
   for (var i = 0; i < storeAnswers.length; i++ ) {
-    //print the choices to the li elements of the DOM
-    alert(i);
+    //store reference of UL.
+    var grabUl = document.getElementById('answers');
+    //dynamically create radio button
+    var radio =  document.createElement('input');
+    radio.setAttribute('type', 'radio');
+    //dynamically create a li element
+    var createLi = document.createElement('li');
+    //append radio button to li element
+    createLi.appendChild(radio);
+    //append li element to ul
+    grabUl.appendChild(createLi);
+
+ 
   }  
 }
 
-//When next button is clicked
-//the current question is replaced by the next
-nextButton.onclick = function() {
-  alert('you clicked me!')
-}
 
 
 //add validation to make sure the user picks an answer
@@ -55,6 +66,7 @@ nextButton.onclick = function() {
 //if right the user gets +1 to their score
 
 //total score displayed on last page
+
 
 
 
