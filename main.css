@@ -20,8 +20,13 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: 'Corben', sans-serif;
+}
+
+h4 {
+  font-size: .75em;
 }
 
 h3 {
@@ -35,13 +40,10 @@ ul li {
   margin: 0 10px;
 }
 
-input {
-  margin-right: 15px;
-}
+#question {
+  display: inline-block;
+  margin-left: 70px;
 
-input[type=radio] {
-  height: 20px;
-  width: 20px;
 }
 /*=====================================================
 CONTAINER
@@ -66,6 +68,10 @@ CONTAINER
 #answers {
   margin-left: 60px;
   padding-top: 30px;
+}
+
+#questionHeader {
+  display: inline-block;
 }
 /*=====================================================
   BUTTONS
