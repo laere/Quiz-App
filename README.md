@@ -2,13 +2,18 @@
 
 **CSS and HTML done
 
+
+
 /////UPDATES/////
 
-**Can flip through the questions
+**Added css and js files to the HTML. Put all3 files into sublime and testing on browser.
 
+**Next and Back Buttons working
 
-///NEED TO ADD///
+**Score based on correct answer
 
-**Need to track user score and print it to last page
+**Can't proceed to next question without answering current
 
-**Need to make the back button go to the previous question
+**Ability to go back and change answer(effects score, in a good or bad way :) );
+
+**Added two more tough questions
