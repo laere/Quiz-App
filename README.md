@@ -1,9 +1,5 @@
 # Quiz-App
 
-**CSS and HTML done
-
-
-
 /////UPDATES/////
 
 **Added css and js files to the HTML. Put all3 files into sublime and testing on browser.
@@ -17,3 +13,8 @@
 **Ability to go back and change answer(effects score, in a good or bad way :) );
 
 **Added two more tough questions
+
+**Added media Queries to satisfy mobile devices (still needs some work). 
+
+**Minified files.
+
