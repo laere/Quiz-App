@@ -1,6 +1,6 @@
 # Quiz-App
 
-/////UPDATES/////
+<strong>/////UPDATES/////</strong>
 
 **Added css and js files to the HTML. Put all3 files into sublime and testing on browser.
 
