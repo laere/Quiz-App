@@ -47,9 +47,9 @@ var addQuizAnswers = function(answers) {
   for (var i = 0; i < answers.length; i++) {
     //dynamically create radio button
     var radio = document.createElement('input');
-    if (usersAnswers[index]) {
+   /* if (usersAnswers[index]) {
       if (i==usersAnswers[index]) 
-      radio.setAttribute('checked', 'true');
+      radio.setAttribute('checked', 'true');*/
     }
     radio.setAttribute('type', 'radio');
     radio.setAttribute('name', 'button');
