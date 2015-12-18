@@ -49,8 +49,8 @@ var addQuizAnswers = function(answers) {
     var radio = document.createElement('input');
    /* if (usersAnswers[index]) {
       if (i==usersAnswers[index]) 
-      radio.setAttribute('checked', 'true');*/
-    }
+      radio.setAttribute('checked', 'true');
+    } */
     radio.setAttribute('type', 'radio');
     radio.setAttribute('name', 'button');
     radio.setAttribute('id', i);
