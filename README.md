@@ -1,20 +1,11 @@
 # Quiz-App
 
-<strong>/////UPDATES/////</strong>
+<strong>THINGS TO FIX</strong>
 
-**Added css and js files to the HTML. Put all3 files into sublime and testing on browser.
+**User can move to next question without answering.
 
-**Next and Back Buttons working
+**When user goes back their previous answer disappears.
 
-**Score based on correct answer
 
-**Can't proceed to next question without answering current
 
-**Ability to go back and change answer(effects score, in a good or bad way :) );
-
-**Added two more tough questions
-
-**Added media Queries to satisfy mobile devices (still needs some work). 
-
-**Minified files.
 
