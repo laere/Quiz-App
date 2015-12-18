@@ -96,7 +96,7 @@ nextButton.addEventListener('click', function() {
       addQuizQuestion(questions[index].question);
       addQuizAnswers(questions[index].choices);
     } else {
-      alert('You scored an ' + getPercent() + '%!');  
+      alert('You scored a ' + getPercent() + '%!');  
     }
   }
 }, false);
