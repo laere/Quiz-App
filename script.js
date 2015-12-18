@@ -28,7 +28,6 @@ var questions = [{
 
 //index of array
 var index = 0;
-
 var grabQuestion = document.getElementById('question');
 var nextButton = document.getElementById('btnNext');
 var backButton = document.getElementById('btnBack');
@@ -38,7 +37,6 @@ var backButton = document.getElementById('btnBack');
 var addQuizQuestion = function(question) {
   grabQuestion.innerHTML = question;
 }
-
 //create a function to add answers from the array and to the DOM.
 //Add answers of first question to page
 var addQuizAnswers = function(answers) {
@@ -68,15 +66,12 @@ var addQuizAnswers = function(answers) {
     var createLi = document.createElement('li');
     //append radio button to li element
     createLi.appendChild(radio);
-
     //create text node that has answers of question one
     var answerText = document.createTextNode(answers[i]);
     //append answers to li element
     createLi.appendChild(answerText);
-
     //append li element to ul
     grabUl.appendChild(createLi);
-
   }
 }
 addQuizQuestion(questions[index].question);
@@ -87,9 +82,7 @@ nextButton.addEventListener('click', function() {
   //prevent user from skipping questions
   if (usersGuess === -1) {
     console.log(usersGuess);
-    alert('You must choose an answer!');
-     
-
+    alert('You must choose an answer!');    
   } else {
     //if users guess is the id of the correct answer, add one
     if (usersGuess == questions[index].correctAnswer) {
@@ -103,8 +96,7 @@ nextButton.addEventListener('click', function() {
       addQuizQuestion(questions[index].question);
       addQuizAnswers(questions[index].choices);
     } else {
-      alert('You scored an ' + getPercent() + '%!');
-  
+      alert('You scored an ' + getPercent() + '%!');  
     }
   }
 }, false);
